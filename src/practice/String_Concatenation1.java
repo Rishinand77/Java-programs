@@ -1,4 +1,4 @@
-package IntegerArthemetic;
+package practice;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class String_Concatenation1 {
 	int num1,num2;
 	
 	Scanner sc=new Scanner(System.in);
+	
 	
 	
 	
