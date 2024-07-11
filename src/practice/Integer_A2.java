@@ -2,9 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class Integer_A2 {
-	
-
+public class Integer_A2 {	
 	
 public static void main(String []args) {
 	
