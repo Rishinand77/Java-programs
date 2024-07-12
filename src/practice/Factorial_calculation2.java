@@ -21,12 +21,12 @@ public class Factorial_calculation2 {
             x = x * count;
         }
 		
-		if(number<1) {
+		if(number==0) {
 			System.out.println("EXIT");
 			break;
 		}		
 		
-        System.out.println("factorial of " + number + ":" + x);
+        System.out.println("factorial of " + number + " : " + x);
 		}
 
     }

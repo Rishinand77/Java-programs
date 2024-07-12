@@ -13,21 +13,20 @@ public class Factorial_calculation3 {
 		for(;;) {
 			System.out.println("Enter the number : ");
 			number = sc.nextInt();
-	
+			
 		x=1;
 		
-		for(count=1;count<=number;++count)
+		for(count = 1 ; count <= number ; ++count)
 		{
 			x=x*count;
-		}
-		
-		if(number<1); {
+		}		
+		if(number==0) {
 			System.out.println("EXIT");
+			break;		}
+		
+		System.out.println("The factorial of "+number+" is: "+x );	
 		}
-		
-		System.out.println("The factorial of "+number+" is: "+x );
-		
-		}	
+
 	}
 
 }
