@@ -10,6 +10,7 @@ public class Checking_of_leap_year {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		while (true) {
 		System.out.println("Enter the year : ");
 		year = sc.nextInt();
 		
@@ -18,6 +19,8 @@ public class Checking_of_leap_year {
 			}
 		else {
 		System.out.println("This is not a leap year");
+		break;
+		}
 	}
 	}
 }
